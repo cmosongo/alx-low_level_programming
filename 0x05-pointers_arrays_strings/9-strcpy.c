@@ -3,8 +3,8 @@
 
 /**
  * _strcpy - makes a copy of a string
- * dest: address of buffer to copy string to
- * src: address of string to be copied
+ * @dest: args address of buffer to copy str to
+ * @src: args address str to be copied
  *
  * Return: the pointer to dest
  */
