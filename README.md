@@ -32,11 +32,11 @@ Low-level programming implies we are just starting to explore the depths.
 
 ## 0x04-
 
--[0x04-](#)
+- [0x04-](#)
 
 ## 0x05-pointer_arrays_strings
 
--[0x05-pointer_arrays_strings](0x05-pointer_arrays_strings/README.md)
+- [0x05-pointer_arrays_strings](0x05-pointer_arrays_strings/README.md)
 
 ## Contributing
 
