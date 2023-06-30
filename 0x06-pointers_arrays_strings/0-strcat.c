@@ -9,17 +9,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int c, c2;
+    int dest_length, src_index;
 
-	c = 0;
-	/*find the size of dest array*/
-	while (dest[c])
-		c++;
+    dest_length = 0;
+    /* Find the length of the dest string */
+    while (dest[dest_length])
+        dest_length++;
 
-	/* iterate through each src array value without the null byte*/
-	for (c2 = 0; src[c2] ; c2++)
-		/*append src[c2] to dest[c] while overwritting the null byte in dest*/
-		dest[c++] = src[c2];
+    /* Iterate through each character of the src string */
+    for (src_index = 0; src[src_index]; src_index++)
+    {
+        /* Append src character to the end of dest string while overwriting the null byte */
+        dest[dest_length++] = src[src_index];
+    }
 
-	return (dest);
+    return dest;
 }
