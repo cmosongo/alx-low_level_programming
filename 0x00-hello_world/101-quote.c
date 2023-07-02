@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-write(2, MESSAGE, sizeof(MESSAGE) - 1);
-return (1);
+write(2, MESSAGE, sizeof(MESSAGE));
+return(1);
 }
