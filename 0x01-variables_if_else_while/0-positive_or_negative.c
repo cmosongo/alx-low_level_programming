@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - generates random number and displays whether number
+ * main - tests whether number a random number
  * is positive, zero, or negative
  * Return: 0
  */
@@ -12,12 +12,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n == 0)
-		printf("%i is zero\n", n);
+	if (n != 0)
+	{
+		if (n > 0)
+			printf("%i is positive\n");
+		if (n < 0)
+			printf("%i is negative\n");
+	}
 	else
-		printf("%i is negative\n", n);
+		printf("%i is zero\n");
 	return (0);
 }
 
