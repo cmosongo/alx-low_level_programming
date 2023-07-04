@@ -10,15 +10,14 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int j;
-	
+
 	j = 0;
-	do
-	{
+	do {
 		/* code */
 		*(s + j) = b;
 		j++;
 
 	} while (j < n);
-	
+
 	return (s);
 }
