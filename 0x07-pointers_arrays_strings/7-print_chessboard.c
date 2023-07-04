@@ -18,9 +18,8 @@ void print_chessboard(char (*a)[8])
 			_putchar (a[rows][columns]);
 			columns++;
 		}
-		_putchar ('
-'); 
-		rows++; 
+		_putchar ('\n');
+		rows++;
 	}
 
 }
