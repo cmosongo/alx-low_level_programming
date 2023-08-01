@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 /**
- * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
@@ -40,5 +39,4 @@ void free_list(list_t *head);
  */
 void print_text(void) __attribute__ ((constructor));
 
-#endif /* LISTS_H */
-
+#endif
